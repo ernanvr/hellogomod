@@ -3,5 +3,5 @@ package utils
 import "fmt"
 
 func HelloWorld(name string) {
-	fmt.Println(name, ". Let's say \"Hello world\"")
+	fmt.Printf("%v, let's say hello to the world\n", name)
 }
